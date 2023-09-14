@@ -1,4 +1,4 @@
-function multiply(num1: number, num2: number): number {
+function multiply3(num1: number, num2: number): number {
   return num1 * num2;
 }
 
@@ -6,11 +6,11 @@ function Sum(num1: number, num2: number): number {
   return num1 + num2;
 }
 
-function isEven(num: number): boolean {
+function isEven3(num: number): boolean {
   return num % 2 === 0;
 }
 
-function showResult(result: number): void {
+function showResult3(result: number): void {
   if (isEven(result)) {
     console.log(`The result is ${result} and it's even!`);
   } else {
